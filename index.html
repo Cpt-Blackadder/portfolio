@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saketh K H - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1>Saketh K H</h1>
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+	<div class="hero-content">
+        <img src="C:\Users\dell\Desktop\WT\PHOTO.JPG"" alt="Your Name" class="profile-photo">
+        <h1>Hello, I'm <span>Saketh K H</span></h1>
+        <p>Enthusiastic MCA student with a keen interest in technology and innovation.</p>
+    </div>
+            </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate MCA student with a strong background in software development, artificial intelligence, and network security. My experience includes working with languages like Python, C++, and Java, along with databases such as MySQL and MongoDB. I thrive in dynamic environments and am excited to contribute to innovative projects, especially in AI and machine learning. I am committed to continuous learning and eager to explore how technology can solve real-world problems and enhance lives.
+            </p>
+        </div>
+    </section>
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-tile">Python</div>
+            <div class="skill-tile">C++</div>
+            <div class="skill-tile">Java</div>
+            <div class="skill-tile">HTML/CSS</div>
+            <div class="skill-tile">MySQL</div>
+            <div class="skill-tile">MongoDB</div>
+        </div>
+
+        <!-- Language Skills Sub-section -->
+        <h3 class="language-skills-header">Language Skills</h3>
+        <div class="language-skills">
+            <span class="language-tile">English (Expert)</span>
+            <span class="language-tile">Malayalam (Native)</span>
+            <span class="language-tile">Hindi (Intermediate)</span>
+            <span class="language-tile">Tamil (Basic)</span>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Firewall Configuration using pfSense</h3>
+                <p>Developed a network security solution with firewall and intrusion detection features using pfSense. This project helped in understanding network configurations and security protocols.</p>
+            </div>
+            <div class="project-card">
+                <h3>Chatbot for Diet Plan Suggestions</h3>
+                <p>Built a personalized diet recommendation chatbot using IBM Watsonx Assistant and deployed it on IBM Cloud, improving accessibility to dietary information and support.</p>
+            </div>
+            <div class="project-card">
+                <h3>Diabetes Prediction using Machine Learning</h3>
+                <p>Developed a K-Nearest Neighbors (K-NN) model to predict diabetes with high accuracy using Python, contributing to health analytics and predictive modeling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                  <div class="education-card">
+        <h3>Cochin University of Science and Technology, Kochi, Kerala</h3>
+        <p>Masters in Computer Application</p>
+        <p>July 2023 - May 2025</p>
+        <p>GPA: 8.17/10</p>
+    </div>
+    <div class="education-card">
+        <h3>University of Calicut, Calicut, Kerala</h3>
+        <p>Bachelor of Physics</p>
+        <p>July 2018 - May 2021</p>
+        <p>CGPA: 4.24/6</p> <!-- Added CGPA information -->
+    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <a href="https://www.credly.com/badges/0cf61975-ba7f-4ed3-9581-fcc4c365e18d/public_url" target="_blank">Getting Started with Artificial Intelligence by IBM</a>
+                </div>
+                <div class="certification-card">
+                    <a href="https://www.credly.com/badges/08f20767-8746-413c-afed-203fc6746355/public_url" target="_blank">Artificial Intelligence Fundamentals by IBM</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="thank-you-message" style="display: none;">Thank you for your message!</div>
+            <div class="contact-info">
+                <p style="text-align: center;">
+                    <strong><a href="mailto:sakethvysakham@gmail.com" class="contact-link" >Email</a></strong> |
+                    <strong><a href="https://www.linkedin.com/in/sakethkh" target="_blank" class="contact-link">LinkedIn</a></strong>
+                </p>
+            </div>
+            <a href="C:\Users\dell\Desktop\Saketh_Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script>
+        window.onscroll = function() {
+            const navbar = document.getElementById("navbar");
+            const navbarTitle = navbar.querySelector("h1");
+            
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                navbar.style.padding = "10px";
+                navbarTitle.style.fontSize = "1.5rem";
+            } else {
+                navbar.style.padding = "20px";
+                navbarTitle.style.fontSize = "2rem";
+            }
+        };
+    </script>
+</body>
+</html>
