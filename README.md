@@ -1,6 +1,6 @@
 Portfolio - Saketh K H
 
-This repository contains the code for a personal portfolio website for [Your Name], designed and developed using pure HTML, CSS, and JavaScript. It showcases my background, projects, skills, and contact information in a minimalist and professional design.
+This repository contains the code for a personal portfolio website for me, designed and developed using pure HTML, CSS, and JavaScript. It showcases my background, projects, skills, and contact information in a minimalist and professional design.
 
 Features
 
